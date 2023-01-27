@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="face-api.min.js"></script>
+    <script defer src="script.js"></script>
+ 
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            position: relative;
+
+        }
+
+        canvas{
+            position: absolute;
+            top: 80px;
+            left: 15px;
+
+        }
+        .vid{
+            color:white;
+            align-items: center;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: black;
+            width: 720px;
+
+        }
+        video{
+            position: relative;
+            left: 2px;
+        }
+        hr{
+            position: relative;
+            
+        }
+        .intro{
+            position: absolute;
+            left: 800px;
+            top: 230px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:black;
+            font-size: larger;
+        }
+        input{
+            background-color: black;
+            color: white;
+            width: 200px;
+            height: 45px;
+            border-radius: 10px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: larger;
+            border: 0ch;
+        }
+        input:hover{
+           background-color:   hotpink;
+        }
+        .project{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:black;
+            font-weight: bold;
+        }
+        .created{
+            position:absolute;
+            top: 662px;
+            left: 735px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:black;
+            font-weight: bold;
+        }
+        .bysara{
+            position:absolute;
+            top: 662px;
+            left: 1410px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:black;
+            font-weight: bold;  
+        }
+    </style>
+</head>
+<body style="background-color: #fffaf6 ">
+    
+    <div class="vid" >
+
+    <h1>make an expression!</h1>
+    
+    <video id="video" width="700" height="560" autoplay muted> </video>
+</div>
+
+<div class="intro">
+    <p class="project">2023|projects</p>
+    <h1> AI face expression detection using <span  style=" color: hotpink"> JavaScript </span> </h1>
+    <br>
+    <input type="button"  onclick="location.href='https://github.com/justadudewhohacks/face-api.js';" value="here">   
+
+</div>
+<div class="created">
+    <p> created by ـــ</p>
+</div>
+
+<div class="bysara">
+    <p> Sarah Karhan</p>
+</div>
+
+</body>
+</html>
